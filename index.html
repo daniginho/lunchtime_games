@@ -2,7 +2,8 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9bcbdf686a.js" crossorigin="anonymous"></script>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Mukta:wght@300;400;600;700;800&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
     <style type="text/css">
       html, body {
@@ -14,6 +15,26 @@
           -moz-background-size: cover;
           background-size: cover;
           -o-background-size: cover;
+      }
+      table{
+          border-collapse: collapse;
+          width:50%;
+      }
+      table th{
+          text-align:center;
+          background-color: #3a6070;
+          color:#FFF;
+          height:70px;
+          border-bottom:1px solid black;
+      }
+      table td {
+          border: 1px solid #e3e3e3;
+          padding:4px 8px;
+          height:70px;
+          text-align:center;
+      }
+      table tr:nth-child(odd) td{
+          background-color: #e7edf0;
       }
       </style>    
 </head>
@@ -47,41 +68,41 @@
       <h1 class="font-weight-light">The Life Of Pi</h1>
       <p class="lead">Testing how to get a full screen image on the background</p>
 
-      <div style="height: 100px"></div>
-      <div><h1 class="display-1"><i class="fas fa-arrow-circle-up"></i></h1></div>
 
-      <p title="The Description">This a Factual Sheet about Pi.</p>
-      <a href="https://en.wikipedia.org/wiki/Pi">Pi Wikipedia Page</a> 
-      
-      <p style="color:#1449e9;font-family:Arial">Pi which is written as the Greek letter for p, or π, is the ratio of the circumference of any circle to the diameter of that circle.
-      </p>
-  
-      <p style="color:#1449e9; text-align:center;" >Regardless of a circle's size, this ratio will always equal Pi.
-           In decimal form, the value of Pi is approximately 3.142. 
-           But Pi is an irrational number
-           ￼
-           What, meaning that its decimal form neither ends like 0.25 nor becomes recurring 0.166666… It is an infinite sequence. 
-            Pi at only 18 decimal places is 3.141592653589793238. 
-             Hence, it is useful to have shorthand for this to make it easier to use. 
-              But the quest to find a formula to calculate it fully goes back through history   .
+
+
               <!--This is my work for school-->
-      </p>
-      <p style="color:#1449e9;">Between 3,000 and 4,000 years ago, people used trial-and-error approximations of Pi, without doing any math or considering potential errors. The earliest written approximations of Pi were 3.125 in Babylon (1900-1600 B.C.) and 3.1605 in ancient Egypt (1650 B.C.). Both approximations started with 3.1 which was  pretty close to the actual value, but still relatively far off
-      </p>
-      <p style="color:#1449e9;">The first calculation of π was done by Archimedes of Syracuse (287–212 BC), one of the greatest mathematicians of the ancient world. Archimedes approximated the area of a circle by using the Pythagorean Theorem to find Pi. Since the actual area of the circle lies between the areas of the inscribed and circumscribed polygons, the areas of the polygons give upper and lower bounds for the area of the circle. Archimedes knew that he had not found the value of π but only an approximation within those limits.
-      </p>
-      <p style="color:#1449e9;">In 1665, English mathematician and physicist Isaac Newton used infinite series to compute Pi to 15 digits, using the calculus he and German mathematician Gottfried Wilhelm Leibniz discovered. After that, the record kept being broken. It reached 71 digits in 1699 then 100 digits in 1706.  In 1956 the best approximation achieved without the aid of a calculator or computer was 620 digits.
-      </p>
-      <p style="color:#1449e9;">The famous Srinivasa Ramanujan most treasured finding was his infinite series for Pi. This series forms the basis of many algorithms we use today. He gave several fascinating formulas to calculate the digits of Pi in many unconventional ways.
-      </p>
-      <p style="color:#1449e9;">The latest record calculating Pi, was when Emma Haruka used an application called y-cruncher on 25 Google Cloud virtual machines. Her calculation required 170 terabytes of data to complete.  Emma’s calculation took the virtual machines about 121 days to complete. During that whole time, the Google Cloud infrastructure kept the servers going. If there’d been any failures or interruptions, it would’ve disrupted the calculation.  The final calculation was over 31 trillion digits.
-      </p>
-      <p style="color:#1449e9;">Each year March 14th marks Pi Day, an annual celebration of the mathematical symbol Pi. Founded in 1988 by physicist Larry Shaw, March 14 was selected because the numerical date (3.14) represents the first three digits of Pi , and it also happens to be Albert Einstein's birthday, the perfect pi-incidence.
-      </p>
+    <table >
+        <tr>
+            <th>Club</th>
+            <th>Position</th>
+            <th>Wins</th>
+            <th>Draws</th>
+            <th>Loses</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>Eversley</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td>2</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>None_Eversley</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td>2</td>
+            <td>7</td>
+        </tr>
+    </table>
    
    
 
-
+    <div style="height: 100px"></div>
+    <div><h1 class="display-1"><i class="fas fa-arrow-circle-up"></i></h1></div>
 
       <div style="height: 200px"></div>
       <p class="lead mb-0 center">Daniel Guest 2021<i class="fas fa-copyright"></i></p>
